@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calificacion</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h2 class="center-align">Calificacion</h2>
+            <div class="col s12  m6">
+                <h3 class="center-align">Caracteristicas</h3>
+                <canvas id="caracteristicas" width="200px" height="200px"></canvas>
+            </div>
+            <div class="col s12 m6">
+                <h3 class="center-align">SubCaracteristicas</h3>
+                <canvas id="Subcaracteristicas" width="200px" height="200px"></canvas>
+            </div>
+            <div class="col s12 m6 center-align">
+                <h3>Calificacion Total</h3>
+                <canvas id="total" width="200px" height="200px"></canvas>
+                <span>La nota total es: <strong id="notaTotal"></strong></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+<script src="js/grafico.js"></script>
+
+</html>

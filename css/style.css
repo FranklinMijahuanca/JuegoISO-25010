@@ -1,0 +1,28 @@
+h1,h2,h3,h4{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.roundes{
+    border-radius: 30%;
+}
+.top-medio{
+    top: 50%
+}
+.left-medio{
+    left: 45%;
+}
+.hide{
+    display: none
+}
+.cursor_pointer:hover{
+    cursor: pointer;
+    font-size: 34px;
+}
