@@ -1,3 +1,7 @@
+html{
+    background-color: #e0e0e0;
+    margin-top: 5%;
+}
 h1,h2,h3,h4{
     margin: 0;
 }
@@ -26,3 +30,15 @@ h1,h2,h3,h4{
     cursor: pointer;
     font-size: 34px;
 }
+footer {
+    padding: 20px;
+    background: #bdbdbd ;
+    color: #424242;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 7%;
+  }
+  
+  footer p{
+    color: #424242;
+  }
