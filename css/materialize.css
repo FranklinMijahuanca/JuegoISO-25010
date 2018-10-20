@@ -3504,6 +3504,7 @@ table span.badge {
   margin-left: auto;
   left: auto;
   right: auto;
+  
 }
 
 .row .col.s3 {
@@ -5224,7 +5225,7 @@ small {
 .btn-small[disabled]:hover,
 .btn-flat[disabled]:hover {
   background-color: #DFDFDF !important;
-  color: #9F9F9F !important;
+  color: red !important;
 }
 
 .btn, .btn-large, .btn-small,

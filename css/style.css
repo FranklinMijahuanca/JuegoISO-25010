@@ -42,3 +42,19 @@ footer {
   footer p{
     color: #424242;
   }
+  @media only screen and (min-width: 993px){
+    .container{
+       width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 601px){
+    .container {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 601px){
+    
+    }
+}
