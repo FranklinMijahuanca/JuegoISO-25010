@@ -6,28 +6,28 @@ var preguntasCaracteristicas = [
         , "posiblesRespuestas": ["Eficiencia de desempeño", "Usabilidad", "Seguridad", "Adecuación Funcional", "Mantenibilidad"]
     }, {
         "pregunta": "Esta característica representa el desempeño relativo a la cantidad de recursos utilizados bajo determinadas condiciones", "isPreguntado": false, "respuesta": "Eficiencia de desempeño"
-        , "posiblesRespuestas": ["Compatibilidad", "Usabilidad", "Seguridad", "Adecuación Funcional", "Mantenibilidad", "Eficiencia de desempeño"]
+        , "posiblesRespuestas": ["Compatibilidad", "Usabilidad", "Adecuación Funcional", "Mantenibilidad", "Eficiencia de desempeño"]
     },
     {
         "pregunta": "Capacidad de dos o más sistemas o componentes para intercambiar información y/o llevar a cabo sus funciones requeridas cuando comparten el mismo entorno hardware o software", "isPreguntado": false, "respuesta": "Compatibilidad"
         , "posiblesRespuestas": ["Seguridad", "Adecuación Funcional", "Mantenibilidad", "Compatibilidad", "Usabilidad"]
     }, {
         "pregunta": "Capacidad del producto software para ser entendido, aprendido, usado y resultar atractivo para el usuario, cuando se usa bajo determinadas condiciones", "isPreguntado": false, "respuesta": "Usabilidad"
-        , "posiblesRespuestas": ["Compatibilidad", "Fiabilidad", "Mantenibilidad", "Usabilidad"]
+        , "posiblesRespuestas": ["Compatibilidad", "Fiabilidad", "Mantenibilidad", "Usabilidad","Adecuación Funcional"]
     }, {
         "pregunta": "Capacidad de un sistema o componente para desempeñar  las funciones especificadas, cuando se usa bajo unas condiciones y periodo de tiempo determinados", "isPreguntado": false, "respuesta": "Fiabilidad"
-        , "posiblesRespuestas": ["Portabilidad", "Adecuación Funcional", "Mantenibilidad", "Fiabilidad"]
+        , "posiblesRespuestas": ["Fiabilidad", "Portabilidad", "Adecuación Funcional", "Mantenibilidad", "Seguridad"]
     },
     {
         "pregunta": "Capacidad de protección de la información y los datos de manera que personas o sistemas no autorizados no puedan leerlos o modificarlos", "isPreguntado": false, "respuesta": "Seguridad"
 
-        , "posiblesRespuestas": ["Seguridad", "Adecuación Funcional", "Portabilidad Usabilidad", "Portabilidad"]
+        , "posiblesRespuestas": ["Seguridad", "Adecuación Funcional", "Portabilidad Usabilidad", "Portabilidad", "Fiabilidad"]
     }, {
         "pregunta": "Esta característica representa la capacidad del producto software para ser modificado efectiva y eficientemente, debido a necesidades evolutivas, correctivas o perfectivas", "isPreguntado": false, "respuesta": "Mantenibilidad"
         , "posiblesRespuestas": ["Seguridad", "Adecuación Funcional", "Mantenibilidad", "Compatibilidad", "Usabilidad"]
     }, {
         "pregunta": "Capacidad del producto o componente de ser transferido de forma efectiva y eficiente de un entorno hardware, software, operacional o de utilización a otro", "isPreguntado": false, "respuesta": "Portabilidad"
-        , "posiblesRespuestas": ["Fiabilidad", "Portabilidad Usabilidad", "Portabilidad", "Adecuación Funcional", "Seguridad"]
+        , "posiblesRespuestas": ["Fiabilidad", "Usabilidad", "Adecuación Funcional", "Portabilidad", "Seguridad"]
     }]
 
 var preguntasSubcaracteristicas = [
@@ -56,17 +56,17 @@ var preguntasSubcaracteristicas = [
         "pregunta": "Capacidad de dos o más sistemas o componentes para intercambiar información y utilizar la información intercambiada.", "isPreguntado": false, "respuesta": "Interoperabilidad"
         , "posiblesRespuestas": ["Interoperabilidad", "Coexistencia", "Adaptabilidad", "Integridad", "Capacidad"]
     }, {
-        "pregunta": "Capacidad del producto que permite al usuario entender si el software es adecuado para sus necesidades", "isPreguntado": false, "respuesta": "Confidencialidad"
+        "pregunta": "Capacidad del producto que permite al usuario entender si el software es adecuado para sus necesidades", "isPreguntado": false, "respuesta": "Capacidad para reconocer su adecuación"
         , "posiblesRespuestas": ["Completitud funcional", "Interoperabilidad", "Capacidad para reconocer su adecuación", "Capacidad de aprendizaje", "Accesibilidad"]
     }, {
-        "pregunta": "Capacidad del producto que permite al usuario aprender su aplicación", "isPreguntado": false, "respuesta": "Integridad"
-        , "posiblesRespuestas": ["Interoperabilidad", "Accesibilidad", "Capacidad de aprendizaje", "Adaptabilidad"]
+        "pregunta": "Capacidad del producto que permite al usuario aprender su aplicación", "isPreguntado": false, "respuesta": "Capacidad de aprendizaje"
+        , "posiblesRespuestas": ["Interoperabilidad", "Accesibilidad", "Capacidad de aprendizaje", "Capacidad", "Adaptabilidad"]
     }, {
         "pregunta": "Capacidad del producto que permite al usuario operarlo y controlarlo con facilidad.", "isPreguntado": false, "respuesta": "Capacidad para ser usado"
-        , "posiblesRespuestas": ["Capacidad para reconocer su adecuación", "Capacidad", "Capacidad para ser usado", "Capacidad de aprendizaje", "Disponibilidad"]
+        , "posiblesRespuestas": ["Capacidad para reconocer su adecuación", "Integridad", "Capacidad para ser usado", "Capacidad de aprendizaje", "Disponibilidad"]
     }, {
         "pregunta": "Capacidad del sistema para proteger a los usuarios de hacer errores.", "isPreguntado": false, "respuesta": "Protección contra errores de usuario"
-        , "posiblesRespuestas": ["Autenticidad", "Protección contra errores de usuario", "No repudio", "Accesibilidad"]
+        , "posiblesRespuestas": ["Autenticidad", "Protección contra errores de usuario", "Capacidad para reconocer su adecuación","No repudio", "Accesibilidad"]
     }, {
         "pregunta": "Capacidad de la interfaz de usuario de agradar y satisfacer la interacción con el usuario", "isPreguntado": false, "respuesta": "Estética de la interfaz de usuario"
         , "posiblesRespuestas": ["Capacidad de aprendizaje", "Interoperabilidad", "Capacidad", "Estética de la interfaz de usuario", "Capacidad para reconocer su adecuación"]
@@ -75,7 +75,7 @@ var preguntasSubcaracteristicas = [
         , "posiblesRespuestas": ["Accesibilidad", "Disponibilidad", "Coexistencia", "Autenticidad", "Interoperabilidad"]
     }, {
         "pregunta": "Capacidad del sistema para satisfacer las necesidades de fiabilidad en condiciones normales", "isPreguntado": false, "respuesta": "Madurez"
-        , "posiblesRespuestas": ["Coexistencia", "Disponibilidad", "Madurez", "Corrección funcional"]
+        , "posiblesRespuestas": ["Madurez", "Coexistencia", "Disponibilidad", "Interoperabilidad", "Corrección funcional"]
     }, {
         "pregunta": "Capacidad del sistema o componente de estar operativo y accesible para su uso cuando se requiere.", "isPreguntado": false, "respuesta": "Disponibilidad"
         , "posiblesRespuestas": ["Comportamiento temporal", "Capacidad para ser usado", "Capacidad para reconocer su adecuación", "Disponibilidad", "Adaptabilidad"]
@@ -96,7 +96,7 @@ var preguntasSubcaracteristicas = [
         , "posiblesRespuestas": ["No repudio", "Adaptabilidad", "Responsabilidad", "Analizabilidad", "Confidencialidad"]
     }, {
         "pregunta": "Capacidad de rastrear de forma inequívoca las acciones de una entidad", "isPreguntado": false, "respuesta": "Responsabilidad"
-        , "posiblesRespuestas": ["Responsabilidad", "Protección contra errores de usuario", "Interoperabilidad", "Autenticidad "]
+        , "posiblesRespuestas": ["Responsabilidad", "Protección contra errores de usuario", "Integridad", "Interoperabilidad", "Autenticidad "]
     }, {
         "pregunta": "Capacidad de demostrar la identidad de un sujeto o un recurso", "isPreguntado": false, "respuesta": "Autenticidad"
         , "posiblesRespuestas": ["Confidencialidad", "Integridad ", "No repudio", "Responsabilidad", "Autenticidad"]
@@ -105,25 +105,25 @@ var preguntasSubcaracteristicas = [
         , "posiblesRespuestas": ["Capacidad para ser instalado", "Capacidad para ser reemplazado ", "Modularidad", "Capacidad para ser probado", "Analizabilidad"]
     }, {
         "pregunta": "Capacidad de un activo que permite que sea utilizado en más de un sistema software o en la construcción de otros activos", "isPreguntado": false, "respuesta": "Reusabilidad"
-        , "posiblesRespuestas": ["Adaptabilidad", "Capacidad para ser modificado", "Capacidad para ser probado", "Reusabilidad", "Analizabilidad"]
+        , "posiblesRespuestas": ["Reusabilidad", "Adaptabilidad", "Capacidad para ser modificado", "Capacidad para ser probado", "Analizabilidad"]
     }, {
         "pregunta": "Facilidad con la que se puede evaluar el impacto de un determinado cambio sobre el resto del software, diagnosticar las deficiencias o causas de fallos en el software, o identificar las partes a modificar", "isPreguntado": false, "respuesta": "Analizabilidad"
         , "posiblesRespuestas": ["Modularidad", "Reusabilidad", "Analizabilidad", "Capacidad para ser modificado", "Capacidad para ser probado"]
     }, {
         "pregunta": "Capacidad del producto que permite que sea modificado de forma efectiva y eficiente sin introducir defectos o degradar el desempeño.", "isPreguntado": false, "respuesta": "Capacidad para ser modificado"
-        , "posiblesRespuestas": ["Interoperabilidad", "Accesibilidad", "Capacidad para ser reemplazado", "Capacidad para ser modificado", "Capacidad para ser probado"]
+        , "posiblesRespuestas": ["Capacidad para ser reemplazado", "Interoperabilidad", "Accesibilidad", "Capacidad para ser modificado", "Capacidad para ser probado"]
     }, {
         "pregunta": "Facilidad con la que se pueden establecer criterios de prueba para un sistema o componente y con la que se pueden llevar a cabo las pruebas para determinar si se cumplen dichos criterios", "isPreguntado": false, "respuesta": "Capacidad para ser probado"
         , "posiblesRespuestas": ["Capacidad para ser modificado", "Capacidad para ser probado", "Adaptabilidad", "Capacidad para ser instalado", "Capacidad para ser reemplazado"]
     }, {
         "pregunta": "Capacidad del producto que le permite ser adaptado de forma efectiva y eficiente a diferentes entornos determinados de hardware, software, operacionales o de uso.", "isPreguntado": false, "respuesta": "Adaptabilidad"
-        , "posiblesRespuestas": ["Adaptabilidad", "Capacidad para ser modificado", "Coexistencia", "Madurez"]
+        , "posiblesRespuestas": ["Adaptabilidad", "Modularidad", "Capacidad para ser modificado", "Coexistencia", "Madurez"]
     }, {
         "pregunta": "Facilidad con la que el producto se puede instalar y/o desinstalar de forma exitosa en un determinado entorno", "isPreguntado": false, "respuesta": "Capacidad para ser instalado"
-        , "posiblesRespuestas": ["Capacidad para ser usado", "Capacidad para ser instalado", "Capacidad de aprendizaje", "Capacidad "]
+        , "posiblesRespuestas": ["Capacidad para ser usado", "Capacidad para ser instalado", "Madurez", "Capacidad de aprendizaje", "Capacidad "]
     }, {
         "pregunta": " Capacidad del producto para ser utilizado en lugar de otro producto software determinado con el mismo propósito y en el mismo entorno.", "isPreguntado": false, "respuesta": "Capacidad para ser reemplazado"
-        , "posiblesRespuestas": ["Capacidad de recuperación", "Capacidad para ser modificado", "Capacidad para ser reemplazado", "Interoperabilidad", "Coexistencia"]
+        , "posiblesRespuestas": ["Capacidad de recuperación", "Capacidad para ser modificado", "Interoperabilidad", "Coexistencia", "Capacidad para ser reemplazado"]
     }]
 
 $(document).ready(function () {
