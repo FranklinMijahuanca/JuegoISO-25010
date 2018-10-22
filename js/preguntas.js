@@ -44,7 +44,7 @@ function Preguntas() {
             swal({
                 type: "success",
                 title: "Completo",
-                text: "Completo todas las preguntas"
+                text: "Completó todas las preguntas"
             })
             return;
         }
@@ -76,14 +76,14 @@ function comparacion(valor) {
 
     if (valor == ArrayPreguntas[numeroAleatorio].respuesta) {
         icon.text("mood")
-        EventoToast("Excelente")
+        EventoToast("Acertaste")
         aprobo = true;
         if (sessionStorage.getItem("preguntasCaracteristicas") !== null) {
             isCaracteristica = true
         }
     } else {
         icon.text("mood_bad")
-        EventoToast("Error")
+        EventoToast("Fallaste")
         mensajeRespuesta(ArrayPreguntas[numeroAleatorio].respuesta)
     }
 
@@ -116,7 +116,7 @@ function ClickBotonNext() {
             Preguntas();
         } else {
             swal({
-                type: "error",
+                type: "warning",
                 title: "Respuesta",
                 text: "Seleccione una respuesta"
             })

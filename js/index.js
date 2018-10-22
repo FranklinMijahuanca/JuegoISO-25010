@@ -1,12 +1,12 @@
-/*Autor="Antony Inga Atunga" */
+/*Autor="Franklin Mijahuanca López" */
 /*Es la variable en donde se registran todas las caracteristicas y subcaracteristicas con sus conceptos */
 var preguntasCaracteristicas = [
     {
-        "pregunta": "Representa la capacidad del producto software para proporcionar funciones que satisfacen las necesidades declaradas e implícitas, cuando el producto se usa en las condiciones especificadas", "isPreguntado": false, "respuesta": "Adecuación Funcional "
-        , "posiblesRespuestas": ["Eficiencia de desempeño", "Usabilidad", "Seguridad", "Adecuación Funcional", "Mantenibilidad"]
-    }, {
         "pregunta": "Esta característica representa el desempeño relativo a la cantidad de recursos utilizados bajo determinadas condiciones", "isPreguntado": false, "respuesta": "Eficiencia de desempeño"
         , "posiblesRespuestas": ["Compatibilidad", "Usabilidad", "Adecuación Funcional", "Mantenibilidad", "Eficiencia de desempeño"]
+    },{
+        "pregunta": "Representa la capacidad del producto software para proporcionar funciones que satisfacen las necesidades declaradas e implícitas, cuando el producto se usa en las condiciones especificadas", "isPreguntado": false, "respuesta": "Adecuación Funcional"
+        , "posiblesRespuestas": ["Eficiencia de desempeño", "Usabilidad", "Seguridad", "Adecuación Funcional", "Mantenibilidad"]
     },
     {
         "pregunta": "Capacidad de dos o más sistemas o componentes para intercambiar información y/o llevar a cabo sus funciones requeridas cuando comparten el mismo entorno hardware o software", "isPreguntado": false, "respuesta": "Compatibilidad"
